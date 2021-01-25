@@ -1,0 +1,40 @@
+.app {
+  height: 100vh;
+  background-color: #007bff;
+}
+
+body {
+  font-family: "Kufam", cursive;
+}
+
+#text {
+  font-size: 2rem;
+}
+
+#author {
+  font-size: 1.25rem;
+}
+
+.icon {
+  color: white;
+}
+
+.created-by-link {
+  color: white;
+}
+
+.created-by-link:hover {
+  text-decoration: none;
+  color: #ffffffc2;
+}
+
+@media only screen and (max-width: 600px) {
+  #text,
+  #author {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 0.75rem;
+  }
+}
